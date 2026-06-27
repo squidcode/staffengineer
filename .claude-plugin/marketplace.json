@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "staffengineer",
+  "description": "Staff Engineer — free squidcode skills for Claude Code: scaffold a full-stack app locally and keep your devops toolchain honest.",
+  "owner": { "name": "Tamas Kalman", "email": "ktamas77@gmail.com" },
+  "plugins": [
+    {
+      "name": "staff-engineer",
+      "description": "squidapp (Next.js + NestJS/Prisma + Postgres scaffolder) + squidops (toolchain doctor), plus squidup/squidupgrade.",
+      "source": "./plugins/staff-engineer",
+      "author": { "name": "Tamas Kalman", "email": "ktamas77@gmail.com" },
+      "category": "development",
+      "homepage": "https://github.com/squidcode/staffengineer"
+    }
+  ]
+}

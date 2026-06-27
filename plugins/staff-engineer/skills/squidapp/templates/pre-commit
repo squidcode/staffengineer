@@ -1,0 +1,2 @@
+npm run lint && npm run format:check && npm run typecheck && npm run test
+# ponytail: runs the full suite on every commit. Swap to lint-staged if it gets slow.

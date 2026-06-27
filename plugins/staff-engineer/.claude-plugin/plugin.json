@@ -1,0 +1,10 @@
+{
+  "name": "staff-engineer",
+  "version": "0.1.0",
+  "description": "Free squidcode skills: squidapp (scaffold a Next.js + NestJS/Prisma + Postgres app) + squidops (toolchain doctor), with squidup + squidupgrade.",
+  "author": { "name": "Tamas Kalman", "email": "ktamas77@gmail.com" },
+  "homepage": "https://github.com/squidcode/staffengineer",
+  "repository": "https://github.com/squidcode/staffengineer",
+  "license": "MIT",
+  "keywords": ["scaffolding", "devops", "nextjs", "nestjs", "prisma", "docker", "doppler", "claude-code", "skills"]
+}

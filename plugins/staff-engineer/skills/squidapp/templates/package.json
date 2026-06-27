@@ -1,0 +1,17 @@
+{
+  "name": "__APP_NAME__",
+  "private": true,
+  "workspaces": ["services/*"],
+  "scripts": {
+    "lint": "npm run lint --workspaces --if-present",
+    "format": "prettier --write \"services/**/*.{ts,tsx,js,jsx,json}\"",
+    "format:check": "prettier --check \"services/**/*.{ts,tsx,js,jsx,json}\"",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9",
+    "prettier": "^3"
+  }
+}
